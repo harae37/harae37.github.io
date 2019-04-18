@@ -6,3 +6,57 @@ body {
 h1 {
   font-family: sans-serif;
 }
+
+.mail {
+  top: 50px;
+  position: relative;
+  left: 30px;
+  font-family: 3dumbregular;
+  animation-name: "welcome"
+  animation-duration: 5s;
+
+}
+
+@font-face {
+    font-family: '3dumbregular';
+}
+
+
+@keyframes size-change {
+  0% {
+    font-size: 24px;
+  }
+  50% {
+    font-size: 50px;
+  }
+  100% {
+    font-size: 24px;
+  }
+}
+
+.circle {
+  animation-name: rainbow-party;
+  aination-duration: 0.3s;
+}
+
+@keyframes rainbow-party {
+  0% {
+    fill: green;
+  }
+  10%{
+    fill: yellow;
+  }
+  30% {
+    fill: pink;
+  }
+  50% {
+    fill: purple;
+  }
+  70% {
+    fill: red;
+  }
+  100% {
+    fill: orange;
+  }
+  
+}
