@@ -2,7 +2,7 @@
 <html>
   <head>
 
-    <title> The Great Dain </title>
+    <title>    </title>
     <meta name="author" content="Dain Jung">
     <meta name="description" content="walala">
 
@@ -37,13 +37,142 @@
     <link rel="stylesheet" href="css/3dumb/stylesheet.css"
     <link rel="stylesheet" href="css/styles.css">
 
-  </head>
-  <body>
 
-    <h1> Welcome! </h1>
-    <h1 class="mail"> Welcome! </h1>
-    <p>My name's Nick, this is my homepage!</p>
-    <a class="circle"> walala </a>
+  <style>
+    .tooltip {
+    position: relative;
+    display: inline-block;
+    border: none;
+    }
 
-  </body>
+    .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+    }
+
+    .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    }
+
+    .tooltip:hover .tooltiptext {
+    visibility: visible;
+    }
+
+  </style>
+
+
+<body style="text-align:center;">
+
+  <script>
+    let container = document.querySelector('.container')
+    container.style.transform = 'scale(0.3)'
+
+    function zoom() {
+      if (container.style.transform == 'scale(0.3)') {
+      container.style.transform = 'scale(1)'
+      } else {
+      container.style.transform = 'scale(0.3)'
+      }
+    }
+
+    document.body.addEventListener('click', zoom)
+  </script>
+
+  <div class="container">
+
+    <div class="item">
+      <div class="tooltip"> <img src="https://i.imgur.com/DmStDKI.jpg">
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="tooltip"> <img src="https://i.imgur.com/DmStDKI.jpg">
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="tooltip"> <img src="https://i.imgur.com/DmStDKI.jpg">
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="tooltip"> <img src="https://i.imgur.com/DmStDKI.jpg">
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="tooltip"> <img src="https://i.imgur.com/DmStDKI.jpg">
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="tooltip"> <img src="https://i.imgur.com/DmStDKI.jpg">
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="tooltip"> <img src="https://i.imgur.com/DmStDKI.jpg">
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="tooltip"> <img src="https://i.imgur.com/DmStDKI.jpg">
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="tooltip"> <img src="https://i.imgur.com/DmStDKI.jpg">
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="tooltip"> <img src="https://i.imgur.com/DmStDKI.jpg">
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="tooltip"> <img src="https://i.imgur.com/DmStDKI.jpg">
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
+    </div>
+
+    <div class="item">
+      <div class="tooltip"> <img src="https://i.imgur.com/DmStDKI.jpg">
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+
+
 </html>
