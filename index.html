@@ -30,11 +30,11 @@
     <meta property="og:title" content="Dain Jung"/>
     <meta property="og:description" content="Dain's walala"/>
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://website.com/"/>
+    <meta property="og:url" content="https://thegreatdain.best"/>
     <meta property="og:image" content="https://website.com/images/yourpic.jpg"/>
 
     <!-- lastly, these lines connect your CSS files with this HTML page -->
-    <link rel="stylesheet" href="css/3dumb/stylesheet.css"
+    <link rel="stylesheet" href="css/3dumb/stylesheet.css">
     <link rel="stylesheet" href="css/styles.css">
 
 
@@ -79,21 +79,6 @@
 
 
 <body style="text-align:center;">
-
-  <script>
-    let container = document.querySelector('.container')
-    container.style.transform = 'scale(0.3)'
-
-    function zoom() {
-      if (container.style.transform == 'scale(0.3)') {
-      container.style.transform = 'scale(1)'
-      } else {
-      container.style.transform = 'scale(0.3)'
-      }
-    }
-
-    document.body.addEventListener('click', zoom)
-  </script>
 
   <div class="container">
 
@@ -171,6 +156,21 @@
 
 
   </div>
+
+  <script>
+    let container = document.querySelector('.container')
+    container.style.transform = 'scale(0.3)'
+
+    function zoom() {
+      if (container.style.transform == 'scale(0.3)') {
+      container.style.transform = 'scale(1)'
+      } else {
+      container.style.transform = 'scale(0.3)'
+      }
+    }
+
+    document.body.addEventListener('click', zoom)
+  </script>
 
 </body>
 
