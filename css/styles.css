@@ -56,12 +56,12 @@ visibility: visible;
 }
 
 .item {
-  margin: 40px;
+  margin: 130px;
   font-family: sans-serif;
 }
 
 .tooltip>img {
-  width: 200px;
+  width: 330px;
   opacity: 1;
   transition: opacity;
   transition-duration: 0.5s;
