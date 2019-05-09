@@ -50,7 +50,7 @@ visibility: visible;
   user-select: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  transform-origin: 1 1 1 1;
+  transform-origin: 0 0;
   transition: transform;
   transition-duration: 1s;
 }
